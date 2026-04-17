@@ -1,57 +1,30 @@
-# ✈️ Avestra Travel Agency
+# Avestra Travel Agency
 
-> **Travel today, treasure forever.** 
-> An all-in-one travel and booking management system connecting wanderlust users with seamless destination planning. 
+Welcome to the **Avestra Travel Agency** repository! 
 
-🌍 **Live Demo:** [Check out Avestra Travel Agency Live!](https://avestratravelagency.page.gd/)
+🚀 **Live Demo:** [https://avestratravelagency.page.gd/](https://avestratravelagency.page.gd/)
 
----
+This project is a comprehensive and dynamic Travel Agency Management System built with PHP and MySQL. It empowers users to seamlessly plan their travels while providing administrators with robust tools to manage the entire platform. Designed with a clear separation between User and Admin workflows, this platform delivers an intuitive booking experience out of the box.
 
-## 📖 About the Project
+## 🌟 Key Features
 
-**Avestra Travel Agency** is a dynamic, full-stack travel booking application that helps travelers discover, plan, and book highly memorable journeys. Designed with a sleek and modern UI, this platform allows users to browse thrilling tour packages, reserve premium hotels, and book tickets locally and internationally. 
+### 🧑‍💻 User Portal
+- **Secure Authentication:** Seamless login and registration, including an OTP-based "Forgot Password" flow.
+- **Explore & Discover:** Easily search and explore comprehensive Tour Packages, Hotels, and Travel Tickets.
+- **Cart & Booking System:** A streamlined process to add desired trips to the cart and confirm bookings.
+- **Payment Processing:** Integrated payment views and checkout generation.
+- **Dashboard & History:** Personalized user dashboards to manage profiles, view booking history, and download invoices.
+- **User Experience:** Support pages and a built-in toggle for Dark Mode functionality!
 
-Under the hood, Avestra operates with a powerful **Admin Panel** that oversees the entire ecosystem—simplifying operations like managing bookings, tracking payments, and resolving contact requests. Whether checking out as a user via our cart-based transaction system or managing the travel agency as an administrator, Avestra brings seamless travel experiences to life.
+### 🛡️ Admin Panel
+- **Data Management:** Full CRUD control to manage Users, Tour Packages, Hotels, and Tickets.
+- **Operations & Reports:** Track overall metrics through the reports dashboard.
+- **Booking & Financials:** Effortless tracking and management of Bookings and processed Payments.
+- **Customer Support:** Centralized view to review and manage incoming contact messages.
+- **Admin Settings:** Tailor admin profile parameters, settings, and adapt the interface with Dark Mode.
 
----
-
-## ✨ Key Features
-
-### 🧑‍💻 For Users:
-* **Interactive Dashboard:** Browse top travel destinations (e.g., Cox's Bazar, Sajek Valley, Bandarban) straight from the homepage.
-* **Unified Booking System:** Effortlessly find and book customized **Tickets** (flights/bus/trains), **Hotels**, and curated **Tour Packages**.
-* **Shopping Cart Experience:** Add multiple bookings to a single cart and check out simultaneously.
-* **Secure Payments & Invoices:** Process online payments seamlessly and auto-generate detailed invoices for all past booking histories.
-* **Modern UI/UX:** Enjoy a heavily responsive interface equipped with smooth transitions and a native **Dark/Light Mode** toggle.
-* **Support & Contact:** 24/7 support capabilities including a seamless contact-us workflow. 
-
-### 🛡️ For Administrators:
-* **Centralized Command Center:** Get an eagle-eye view of everything happening on the platform through a rich Admin dashboard.
-* **Inventory Management:** Full CRUD (Create, Read, Update, Delete) controls to manage Hotels, Tickets, and varied Tour Packages.
-* **Order & Booking Resolution:** Monitor user bookings, confirm orders, and trace carts from pending to completed.
-* **Financial Reports & Payments:** Easily aggregate earnings and review comprehensive financial activity logs.
-* **User & Outreach Control:** Manage all user accounts safely and respond directly to contact form submissions.
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** HTML5, CSS3, JavaScript (Vanilla), FontAwesome
-* **Backend:** PHP (Core)
-* **Database:** MySQL
-* **Architecture:** Session-based Authentication & Role-based Access Control (RBAC)
-
----
-
-## 🚀 Get Started
-
-Want to run this project locally? 
-
-1. Clone the repository: `git clone <your-repo-link>`
-2. Import the database skeleton: Feed the `avestra-travel-agency.sql` file into your local MySQL server (via phpMyAdmin or CLI).
-3. Update connection configurations inside the `database` directories.
-4. Run the project on an Apache server using XAMPP, WAMP, or similar:
-   - Access User Panel / Homepage: `http://localhost/Avestra-Travel-Agency/`
-   - Access Admin Panel: `http://localhost/Avestra-Travel-Agency/Admin/`
-
----
+## 🛠️ Technology Stack
+- **Backend:** PHP
+- **Database:** MySQL (Database schema included in `avestra-travel-agency.sql`)
+- **Frontend:** HTML, CSS, JavaScript (Icons via FontAwesome)
+- **Features:** Email/SMTP integration for verification and notifications.
